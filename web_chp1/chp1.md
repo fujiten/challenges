@@ -39,7 +39,7 @@ Location レスポンスヘッダーはリダイレクト先の URL を示しま
 ## refererについて
 
 ### aタグにtarget="_blank"を設定したところ、先輩エンジニアから「ちゃんとrel=noreferrerを設定した？」と聞かれました。なぜそのような設定が必要なのでしょうか？
-→　遷移先で、元サイトの情報である windows.opener にアクセスさせないため
+→ 遷移先で、元サイトの情報である windows.opener にアクセスさせないため
 
 ### rel=noreferrerを設定しなかった場合に起きうる問題を調べて、説明して下さい
 → 遷移先で、windows.openerer.location などを変更し、元ページを別ページに変換したり出来る
