@@ -45,7 +45,7 @@ Location レスポンスヘッダーはリダイレクト先の URL を示しま
 → 遷移先で、windows.openerer.location などを変更し、元ページを別ページに変換したり出来る
 
 ### 先輩エンジニアに「同じオリジンの時はrefererの情報を全部送って、別オリジンの時は、オリジン情報だけをrefererとして送信するように、HTTPレスポンスヘッダを追加しておいてもらえる？」と頼まれました。HTTPレスポンスヘッダーには、どんな値を追加する必要があるでしょうか？
-→　Referrer-Policy: same-origin
+→　Referrer-Policy: origin-when-cross-origin
 
 
 ## クイズ
