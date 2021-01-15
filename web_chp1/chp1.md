@@ -1,5 +1,7 @@
 # 課題１
 
+参考: MDN [https://developer.mozilla.org/ja/docs/Web/HTTP/Headers]
+
 ## Host
 
 Host リクエストヘッダーは、リクエストが送信される先のサーバーのホスト名とポート番号を指定します。
