@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://498054e30bf9.ngrok.io');
+  res.header('Access-Control-Allow-Origin', 'https://ba7dbe9f05f9.ngrok.io');
   res.header("Access-Control-Allow-Methods", '*');
   res.header('Access-Control-Allow-Credentials', true)
   next();
