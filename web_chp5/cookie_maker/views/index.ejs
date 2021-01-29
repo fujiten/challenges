@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <script>
+    console.log('sasas')
+    $.ajax({
+    url: 'https://3df1a5352901.ngrok.io',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    // cache: false,
+    crossDomain: true,
+    withCredentials: true,
+    xhrFields: { withCredentials: true },
+    type: "GET", /* or type:"GET" or type:"PUT" */
+    success: function (result, status, xhr) {
+        console.log(result);
+        console.log(xhr.getAllResponseHeaders())
+        console.log(xhr.getResponseHeader('Set-Cookie'));
+    },
+    error: function () {
+        console.log("error");
+    }
+  });
+
+  </script>
+  
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </body>
+</html>

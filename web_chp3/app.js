@@ -1,8 +1,7 @@
 const express = require('express')
 const app = express()
-const bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 app.get('/', function (req, res) {
   res.json({text: "hello world"})
@@ -17,7 +16,6 @@ app.post('/', (req, res) => {
     error: "Invalid Content-Type" 
   });
 });
-
 
 
 app.listen(3000)
