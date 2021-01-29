@@ -68,6 +68,10 @@ SameSiteを考慮せず、常にクッキーを送信する。
 クッキーに関するクイズを作成してください
 ### Session Cookie とPersistant Cookieの違いとはなにか。
 
+ If a cookie does not contain an expiration date, it is considered a session cookie. Session cookies are stored in memory and never written to disk. When the browser closes, the cookie is permanently lost from this point on. If the cookie contains an expiration date, it is considered a persistent cookie. On the date specified in the expiration, the cookie will be removed from the disk.
+
+ → 有効期限なしのクッキーは「セッションクッキー」であり、disk上に保存されない。そのため、ブラウザを閉じると消える。有効期限を設定すると、「パーシステントクッキー」となり、設定期限まで永続的に残る。
+
 
 参考文献
 
