@@ -6,14 +6,7 @@
 
 データ取得パフォーマンス向上のため
 
-^ キャッシュには様々な種類があります。いくつか例を挙げてそれぞれのキャッシュの違いを説明してください（「ブラウザキャッシュ」「プロキシキャッシュ」など）
-
-
-Images - logos, pictures, backgrounds, etc.
-HTML
-CSS
-JavaScript
-In short, browsers typically cache what are known as "static assets" - parts of a website that do not change from visit to visit.
+- キャッシュには様々な種類があります。いくつか例を挙げてそれぞれのキャッシュの違いを説明してください（「ブラウザキャッシュ」「プロキシキャッシュ」など）
 
 ブラウザキャッシュ：ブラウザは静的ファイル（images, HTML, CSS, JavaScript)などをディスク上に保存する。
 
